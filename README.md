@@ -4,13 +4,13 @@ Really simple basic mock for [Apereo CAS server](https://www.apereo.org/projects
 
 # Install
 
-    npm install cas-server-mock
+    sudo npm install -g https://github.com/kberzinch/cas-server-mock
 
 # Usage
 
 Start a fake CAS server with the following command:
 
-    node node_modules/cas-server-mock/server.js --port=3004 --database=/tmp/users.json
+    csm --port=3004 --database=/tmp/users.json
 
 With:
 
